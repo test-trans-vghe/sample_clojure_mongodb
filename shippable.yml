@@ -1,6 +1,7 @@
 # Language setting
 language: clojure
 
+
 lein:
   - lein2
 
@@ -13,8 +14,6 @@ services:
 before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
-
-#build_image: shippable/minv2:beta
 
 
 # Running the test with Leiningen
